@@ -1,0 +1,21 @@
+{
+    "name": "rossedu/workec",
+    "description": "EC开放平台API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rossedu",
+            "email": "rossli6789@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "~6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "RossEdu\\WorkEc\\": "src/"
+        }
+    }
+}
