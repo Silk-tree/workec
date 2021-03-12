@@ -208,13 +208,6 @@ class EC
     public function addCustomer($data)
     {
 
-        $data = [
-            "list"      => [
-                ["followUserId" => 7689179, "mobile" => "13510472121", "name" => "shicy-test-002"],
-                ["followUserId" => 7689179, "mobile" => "13510472121", "name" => "shicy-test-003"],
-            ],
-            "optUserId" => 7689179,
-        ];
         $uri = 'customer/addCustomer';
         $method = 'POST';
 
