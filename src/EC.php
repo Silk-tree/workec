@@ -584,4 +584,12 @@ class EC
 
         return $this->client($method, $uri, $data);
     }
+
+    public function getChannelSource()
+    {
+        $uri = 'customer/getChannelSource';
+        $method = 'GET';
+
+        return $this->client($method, $uri);
+    }
 }
